@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="26" height="15" tilewidth="18" tileheight="18" infinite="0" nextlayerid="19" nextobjectid="1">
+ <tileset firstgid="1" source="Новая папка/Tiled/tileset-tiles.tsx"/>
+ <tileset firstgid="181" source="Новая папка/Tiled/tileset-characters.tsx"/>
+ <objectgroup id="13" name="moving">
+  <properties>
+   <property name="bondrary_right" type="float" value="312"/>
+   <property name="boundary_left" type="float" value="78"/>
+   <property name="change_x" type="float" value="30"/>
+  </properties>
+ </objectgroup>
+ <objectgroup id="16" name="moving 3">
+  <properties>
+   <property name="bondrary_right" type="float" value="677"/>
+   <property name="boundary_left" type="float" value="416"/>
+   <property name="change_x" type="float" value="30"/>
+  </properties>
+ </objectgroup>
+ <layer id="17" name="ladder" width="26" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2DoAhM62eMxzOwZBaMAHwAAPdYAxQ==
+  </data>
+ </layer>
+ <layer id="14" name="characters" width="26" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYBj64OxAO2AYg5EQtiPBj6NgFJACAO9/Amg=
+  </data>
+ </layer>
+ <objectgroup id="15" name="moving 2">
+  <properties>
+   <property name="bondrary_right" type="float" value="338"/>
+   <property name="boundary_left" type="float" value="196"/>
+   <property name="change_x" type="float" value="30"/>
+  </properties>
+ </objectgroup>
+ <layer id="1" name="osnova" width="26" height="15">
+  <data encoding="base64" compression="zlib">
+   eJyrZmBgqMaCaxioC7DZgc8eISAWBmIRKtkzAYcd6lCsQYE9/VCMzQ4QUCPSnllAPAeHPbBwcsOj34pIe7ABdD9EEVAPsisJiG0IqCvAIlbHwHAAxiZkDwgkIrFBYTSbATOcWoC4HoveJiidB6Uj8dhTSsAdYkAsDsQSQJwNxehy4khqsIFyIC4D4hQ89lQxIOJdHA0Tyj9yBPwzGcm9uPIKLozLT51QupGAXyixCzl8scmRYwe2MCZFbjhjACpvWKA=
+  </data>
+ </layer>
+ <layer id="18" name="batut" width="26" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo4A6IGegHTAKRsEooAoAAKA3AG0=
+  </data>
+ </layer>
+ <layer id="2" name="naosnove" width="26" height="15">
+  <data encoding="base64" compression="zlib">
+   eJyrZmBgqGGgPaimkz39QDyBDH1CQCwMxCIk6KljYDhAqrlqQKwOxBokuo8QsAJiayC2wcEfBaOAFNBAZfNqsYiJAbE4EEtQyQ5c5lVBaVLKnyY8crjMI9UemHtxhQG17KlCYmPTg808AJswD7Q=
+  </data>
+ </layer>
+ <layer id="3" name="naosnove2" width="26" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIKBB400Nl8MiMWhWIKG9lQhsWuGqD0AQH4Cyg==
+  </data>
+ </layer>
+ <layer id="4" name="exit" width="26" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjALqgXw62dNMJ3tGIgAAfDcA8w==
+  </data>
+ </layer>
+ <layer id="12" name="collect" width="26" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYBh6YMaoHaNgiAEZAvIudHHFKBgFxAEA6B8CKQ==
+  </data>
+ </layer>
+ <layer id="6" name="collision" width="26" height="15" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYMAOFuIQJwesxiNHD3sW0tiehQzUsQPdjNVocrQCqxmo5wdi7KEEEONOathDjN3I9izEgimxB5eZ6OYS4hMymxx30VoPNn2khAE5duEzm9b5YjACAIrKJ08=
+  </data>
+ </layer>
+ <layer id="8" name="damage" width="26" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjALKgCuNzIThUUBfAACzPwEV
+  </data>
+ </layer>
+</map>
